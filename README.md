@@ -7,7 +7,7 @@ The system is designed to work with both real-time weather data (via API) and ma
 # Objective of this project
 The primary objective of this project is to develop a predictive model that can accurately determine the likelihood of rainfall based on environmental conditions. This helps in understanding how machine learning can be applied to real-world problems like weather forecasting.
 
-# Feature of this project
+# Features of this project
 - Rain Prediction using Machine Learning
 - Uses Important Weather Parameters
 - Real-Time Data Integration (API Support)
