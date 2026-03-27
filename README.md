@@ -4,10 +4,16 @@
 This project focuses on predicting whether it will rain or not using a Machine Learning approach. It analyzes key weather parameters such as temperature, humidity, atmospheric pressure, and wind speed to classify the weather condition.
 The system is designed to work with both real-time weather data (via API) and manually provided inputs, ensuring flexibility and reliability.
 
-# Objective
+# Objective of this project
 The primary objective of this project is to develop a predictive model that can accurately determine the likelihood of rainfall based on environmental conditions. This helps in understanding how machine learning can be applied to real-world problems like weather forecasting.
 
-# Methodology
+# Feature of this project
+- Rain Prediction using Machine Learning
+- Uses Important Weather Parameters
+- Real-Time Data Integration (API Support)
+- Machine Learning Model (Random Forest)
+
+# Methodology of this project
 The project follows a structured machine learning workflow:
 
 - A dataset containing weather attributes is used to train the model
