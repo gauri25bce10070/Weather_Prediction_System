@@ -2,7 +2,6 @@ import requests
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-# TRAIN MODEL
 X = np.array([
     [30, 70, 1012, 5],
     [35, 40, 1015, 3],
@@ -15,7 +14,7 @@ y = np.array([1, 0, 1, 0, 1])
 model = RandomForestClassifier()
 model.fit(X, y)
 
-API_KEY = "YOUR_API_KEY"
+API_KEY = "cb4af9bf1808270eca31484e8a6963ec" 
 CITY = "Jaipur"
 
 def get_weather():
@@ -24,10 +23,8 @@ def get_weather():
     response = requests.get(url)
     data = response.json()
 
-    # PRINT FOR DEBUG
     print("API Response:", data)
 
-    # HANDLE ERROR
     if "main" not in data:
         print(" API Error:", data.get("message", "Unknown error"))
         return None
@@ -39,11 +36,11 @@ def get_weather():
         data["wind"]["speed"]
     ]
 
-def predict_rain(weather):
-    prediction = model.predict([weather])
+def predict_rain(weather):99999999996
+    input_data = np.array(weather).reshape(1, -1)
+    prediction = model.predict(input_data)
     return " Rain Expected" if prediction[0] == 1 else " No Rain"
 
-# RUN
 weather = get_weather()
 
 if weather:
