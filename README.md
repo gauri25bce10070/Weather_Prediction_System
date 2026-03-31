@@ -1,4 +1,4 @@
-# Rain Prediction using Machine Learning
+# WEATHER PREDICTION SYSTEM
 
 # Overview
 This project focuses on predicting whether it will rain or not using a Machine Learning approach. It analyzes key weather parameters such as temperature, humidity, atmospheric pressure, and wind speed to classify the weather condition.
