@@ -63,3 +63,5 @@ This project can be further enhanced by:
 # Conclusion
 
 This project demonstrates the practical application of machine learning in weather prediction. It highlights how data-driven models can be used to make informed predictions and solve real-world problems efficiently.
+
+
