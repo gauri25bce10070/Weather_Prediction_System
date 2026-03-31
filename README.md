@@ -64,4 +64,6 @@ This project can be further enhanced by:
 
 This project demonstrates the practical application of machine learning in weather prediction. It highlights how data-driven models can be used to make informed predictions and solve real-world problems efficiently.
 
+# Output
 
+<img width="1418" height="180" alt="image" src="https://github.com/user-attachments/assets/f2ba5e35-b976-4038-9979-18f07039b332" />
